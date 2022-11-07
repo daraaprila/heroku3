@@ -37,7 +37,7 @@
 # -----------------------------------------------------
 
 from flask import Flask
-from deepface import DeepFace
+# from deepface import DeepFace
 
 app = Flask(__name__)
 @app.route('/')
